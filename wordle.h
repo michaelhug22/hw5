@@ -5,7 +5,6 @@
 #include <set>
 #include <string>
 #endif
-
 /**
  * @brief Returns the list of all legal words in the provided dictionary
  *        that meet the criteria provided in the `in` and `floating`
@@ -17,6 +16,8 @@
  * @param [in] dict - Dictionary of strings of legal words
  * @return std::set<std::string> - Set of all words that meet the criteria
  */
+ #include <set>
+ #include <string>
 std::set<std::string> wordle(
     const std::string& in,
     const std::string& floating,
